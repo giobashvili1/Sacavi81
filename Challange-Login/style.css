@@ -1,0 +1,94 @@
+@font-face{
+    font-family: "fonti";
+    src: url(./fonts/Roboto-Bold.ttf);
+}
+@font-face{
+    font-family: "fonti2";
+    src: url(./fonts/Segoe\ UI.ttf);
+}
+.header{
+    width: 400px;
+    height: 500px;
+    background-image: url(./img/twitter-logo-4\ 1.png);
+    background-repeat: no-repeat;
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left:  500px;
+    
+}
+label{
+    color: #000;
+
+font-family: "fonti";
+font-size: 32px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+
+}
+input{
+    width: 320px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: #FFF;
+    margin-top: 20px;
+    padding-left: 10px;
+    
+}
+input::placeholder{
+    color: rgba(0, 0, 0, 0.60);
+    font-family: "fonti2";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+}
+.my-password{
+    width: 320px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: #FFF;
+    margin-top: 15px;
+    padding-left: 10px;
+    
+}
+.my-password::placeholder{
+    color: rgba(0, 0, 0, 0.60);
+    font-family: "fonti2";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+   
+}
+.button{
+    width: 330px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 76px;
+    background: #1DA1F2;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: "fonti2";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+a{
+    text-decoration: none;
+    color: #1DA1F2;
+    font-family:"fonti2";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
